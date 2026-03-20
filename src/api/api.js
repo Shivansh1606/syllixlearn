@@ -1,5 +1,5 @@
 // src/api/api.js
-const BASE_URL = import.meta.env.VITE_API_BASE_URL ;
+const BASE_URL = import.meta.env.VITE_API_BASE_URL 
 
 export const getToken    = ()      => localStorage.getItem('syllix_token');
 export const setToken    = (token) => localStorage.setItem('syllix_token', token);
